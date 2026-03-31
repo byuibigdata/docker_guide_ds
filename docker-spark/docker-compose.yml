@@ -8,7 +8,7 @@ services:
       POSTGRES_USERNAME: postgres
       POSTGRES_PASSWORD: postgres1234 #BYUIds2017
     volumes:   
-      - ./data/postgresql:/var/lib/postgresql/data 
+      - ./data/postgresql:/var/lib/postgresql
       - ./scratch:/scratch 
     ports:
       - '5432:5432'
